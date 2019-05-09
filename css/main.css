@@ -1,0 +1,186 @@
+* {
+    font-family: 'Akronim', cursive;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* NASLOV TEXT */
+div.naslov {
+    background: linear-gradient(#E9E5C2, #BBD6FC);
+    text-align: center;
+    color: rgb(105, 162, 248);
+    font-size: 30px;
+    height: 5rem;
+    width: 100%;
+}
+
+.naslov h1 {
+    margin: 0;
+    padding: 10px 0 0 0;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+/* POP UP PROGNOZA */
+
+div.popUp {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: radial-gradient(#E9E5C2, #BBD6FC);
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+div.naslov h2 {
+    padding: 15px;
+    margin: 0 auto;
+    color: rgb(105, 162, 248);
+    font-size: 20px;
+}
+
+div.temperatura img {
+    margin: 4px;
+    padding: 4px 4px;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+div.temperatura h1 {
+    color: #FFA500;
+    margin: 10px;
+    padding: 10px 10px;
+    font-size: 45px;
+    float: left;
+}
+
+div.ostaliPodaci {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: radial-gradient(#E9E5C2, #BBD6FC);
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+div.ostatakVrijeme {
+    color: #FFA500;
+    margin: 5px;
+    padding-right: 10px;
+}
+
+/* MAPA  */
+/* sunce proba u info bar */
+.popUpSlika {
+    width: 35px;
+    height: 35px;
+}
+
+#map {
+    height: calc(100vh - 75px);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* **************** */
+/* GRID SYSTEM */
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.row::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* MAPS */
+
+/* UPUTSVO POP UP */
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background: linear-gradient(#E9E5C2, #BBD6FC);
+    margin: 15% auto;
+    padding: 20px;
+    border: 2px solid rgb(221, 153, 26);
+    width: 40%;
+}
+
+.modal-content h3 {
+    color: rgb(122, 173, 245);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px;
+}
